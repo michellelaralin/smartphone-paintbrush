@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<AbsoluteLayout
+	android:id="@+id/AbsoluteLayout01"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<!-- path/point-to-point mode selector -->
+	<TextView 
+		android:layout_x="22dip" 
+		android:layout_width="wrap_content" 
+		android:id="@+id/modeLabel" 
+		android:layout_height="wrap_content" 
+		android:layout_y="15dip" 
+		android:text="Distance Mode:">
+	</TextView>
+	
+	<RadioGroup
+		android:layout_x="43dip" 
+		android:layout_width="wrap_content" 
+		android:layout_y="30dip" 
+		android:id="@+id/modeGroup" 
+		android:layout_height="wrap_content">
+		
+		<RadioButton 
+			android:id="@+id/pointToPointButton" 
+			android:layout_x="91dip" 
+			android:layout_width="wrap_content" 
+			android:text="Point-to-Point" 
+			android:layout_height="wrap_content" 
+			android:layout_y="30dip">
+		</RadioButton>
+		
+		<RadioButton 
+			android:id="@+id/pathButton" 
+			android:layout_x="91dip" 
+			android:layout_width="wrap_content" 
+			android:text="Path" 
+			android:layout_height="wrap_content" 
+			android:layout_y="60dip">
+		</RadioButton>
+	</RadioGroup>
+	
+	<!-- Unit selector -->
+	<TextView 
+		android:layout_x="26dip" 
+		android:layout_width="wrap_content" 
+		android:id="@+id/unitLabel" 
+		android:layout_height="wrap_content" 
+		android:layout_y="130dip" 
+		android:text="Units:">
+	</TextView>
+	
+	<RadioGroup
+		android:layout_x="43dip" 
+		android:layout_width="wrap_content" 
+		android:layout_y="145dip" 
+		android:id="@+id/unitGroup" 
+		android:layout_height="wrap_content">
+		
+		<RadioButton 
+			android:id="@+id/metricButton" 
+			android:layout_x="91dip" 
+			android:layout_width="wrap_content" 
+			android:text="Metric (cm)" 
+			android:layout_height="wrap_content" 
+			android:layout_y="145dip">
+		</RadioButton>
+		
+		<RadioButton 
+			android:id="@+id/imperialButton" 
+			android:layout_x="91dip" 
+			android:layout_width="wrap_content" 
+			android:text="Imperial (in)" 
+			android:layout_height="wrap_content" 
+			android:layout_y="175dip">
+		</RadioButton>
+	</RadioGroup>
+	
+	<!-- Dimension selector -->
+	<TextView 
+		android:layout_x="26dip" 
+		android:layout_width="wrap_content" 
+		android:id="@+id/unitLabel" 
+		android:layout_height="wrap_content" 
+		android:layout_y="245dip" 
+		android:text="Dimension:">
+	</TextView>
+	
+	<RadioGroup
+		android:layout_x="43dip" 
+		android:layout_width="wrap_content" 
+		android:layout_y="260dip" 
+		android:id="@+id/dimensionGroup" 
+		android:layout_height="wrap_content">
+		
+		<RadioButton 
+			android:id="@+id/distanceButton" 
+			android:layout_x="91dip" 
+			android:layout_width="wrap_content" 
+			android:text="Distance (one measurement)" 
+			android:layout_height="wrap_content" 
+			android:layout_y="260dip">
+		</RadioButton>
+		
+		<RadioButton 
+			android:id="@+id/areaButton" 
+			android:layout_x="91dip" 
+			android:layout_width="wrap_content" 
+			android:text="Area (two measurements)" 
+			android:layout_height="wrap_content" 
+			android:layout_y="290dip">
+		</RadioButton>
+		
+		<RadioButton 
+			android:id="@+id/volumeButton" 
+			android:layout_x="91dip" 
+			android:layout_width="wrap_content" 
+			android:text="Volume (three measurements)" 
+			android:layout_height="wrap_content" 
+			android:layout_y="320dip">
+		</RadioButton>
+	</RadioGroup>
+	
+
+</AbsoluteLayout>

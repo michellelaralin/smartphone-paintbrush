@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="accelTitle">Acceleration:</string>
+    <string name="app_name">3DSketching</string>
+    <string name="reset">Reset Vel/Pos</string>
+	<string name="graphics_app_name">Graphics App</string>
+	<string name="measure_app_name">Measure</string>
+	<string name="distanceLabel">Current Distance: </string>
+</resources>

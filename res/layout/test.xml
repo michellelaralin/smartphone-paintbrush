@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	android:id="@+id/ScrollView01"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	
+	<LinearLayout
+		android:id="@+id/LinearLayout03"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:orientation="vertical">
+		
+			<!-- path/point-to-point mode selector -->
+		<TextView 
+			android:layout_width="wrap_content" 
+			android:id="@+id/modeLabel" 
+			android:layout_height="wrap_content" 
+			android:text="Distance Mode:">
+		</TextView>
+		
+		<RadioGroup
+			android:layout_width="wrap_content" 
+			android:id="@+id/modeGroup" 
+			android:layout_height="wrap_content">
+			
+			<RadioButton 
+				android:id="@+id/pointToPointButton" 
+				android:layout_width="wrap_content" 
+				android:text="Point-to-Point" 
+				android:layout_height="wrap_content">
+			</RadioButton>
+			
+			<RadioButton 
+				android:id="@+id/pathButton" 
+				android:layout_width="wrap_content" 
+				android:text="Path" 
+				android:layout_height="wrap_content" >
+			</RadioButton>
+		</RadioGroup>
+		
+		<!-- Unit selector -->
+		<TextView 
+			android:layout_width="wrap_content" 
+			android:id="@+id/unitLabel" 
+			android:layout_height="wrap_content" 
+			android:text="Units:">
+		</TextView>
+		
+		<RadioGroup
+			android:layout_width="wrap_content" 
+			android:id="@+id/unitGroup" 
+			android:layout_height="wrap_content">
+			
+			<RadioButton 
+				android:id="@+id/metricButton" 
+				android:layout_width="wrap_content" 
+				android:text="Metric (cm)" 
+				android:layout_height="wrap_content" >
+			</RadioButton>
+			
+			<RadioButton 
+				android:id="@+id/imperialButton" 
+				android:layout_width="wrap_content" 
+				android:text="Imperial (in)" 
+				android:layout_height="wrap_content" >
+			</RadioButton>
+		</RadioGroup>
+		
+		<!-- Dimension selector -->
+		<TextView 
+			android:layout_width="wrap_content" 
+			android:id="@+id/unitLabel" 
+			android:layout_height="wrap_content" 
+			android:text="Dimension:">
+		</TextView>
+		
+		<RadioGroup
+			android:layout_width="wrap_content" 
+			android:id="@+id/dimensionGroup" 
+			android:layout_height="wrap_content">
+			
+			<RadioButton 
+				android:id="@+id/distanceButton" 
+				android:layout_width="wrap_content" 
+				android:text="Distance (one measurement)" 
+				android:layout_height="wrap_content" >
+			</RadioButton>
+			
+			<RadioButton 
+				android:id="@+id/areaButton" 
+				android:layout_width="wrap_content" 
+				android:text="Area (two measurements)" 
+				android:layout_height="wrap_content" >
+			</RadioButton>
+			
+			<RadioButton 
+				android:id="@+id/volumeButton" 
+				android:layout_width="wrap_content" 
+				android:text="Volume (three measurements)" 
+				android:layout_height="wrap_content" >
+			</RadioButton>
+		</RadioGroup>
+		
+		<TextView 
+			android:layout_width="wrap_content" 
+			android:id="@+id/textView" 
+			android:layout_height="wrap_content" 
+			android:text="Distance:">
+		</TextView>
+		
+		<Button 
+			android:layout_width="wrap_content" 
+			android:id="@+id/button" 
+			android:layout_height="wrap_content" 
+			android:text="Hold to start">
+		</Button>
+		
+	</LinearLayout>
+</ScrollView>

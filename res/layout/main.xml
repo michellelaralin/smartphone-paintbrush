@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+	<TextView  
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:text="@string/accelTitle"
+	    />
+	<TextView android:text="@+id/xaccel" android:id="@+id/xaccel" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+	<TextView android:text="@+id/yaccel" android:id="@+id/yaccel" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+	<TextView android:text="@+id/zaccel" android:id="@+id/zaccel" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+	<TextView android:text="@+id/rmatrix" android:id="@+id/rmatrix" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+	
+	<TextView android:text="@+id/acc" android:id="@+id/acc" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+	<TextView android:text="@+id/vel" android:id="@+id/vel" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+	<TextView android:text="@+id/pos" android:id="@+id/pos" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+	
+	<Button 
+		android:text="@string/reset" 
+		android:id="@+id/reset" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content">
+	</Button>
+</LinearLayout>
